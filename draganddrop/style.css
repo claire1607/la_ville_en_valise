@@ -1,0 +1,39 @@
+body {
+  
+    width: 100vw;
+    height: 100vh;
+  }
+  
+
+  [draggable] {
+    cursor: move;
+  }
+  
+  #obelix{
+      height:30vh;
+      width: 10vw;
+  }
+
+#lampadaire{
+    height:40vh;
+    width: 10vw;
+}
+
+#rocher1{
+    height:5vh;
+    width: 10vw;
+}
+
+#Rocher{
+    height:5vh;
+    width: 10vw;
+}
+#rampe{
+    height:25vh;
+    width: 10vw;
+}
+
+#coq{
+    height:10vh;
+    width: 10vw;
+}

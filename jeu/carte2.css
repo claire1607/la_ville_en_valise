@@ -1,0 +1,206 @@
+#cartes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    margin-left: -15%;
+  }
+  
+  .cartegauche {
+    border:solid  #a9478e 1px;
+    background-repeat: no-repeat;
+    width: 25vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cadre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 5vh;
+    margin-top: 25%;
+    margin-left: -50%;
+  }
+  .u {
+    color: #a9478e;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 7vw;
+    height: 3vh;
+  }
+  
+  .usage {
+    color: #a9478e;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 2vh;
+  }
+  
+  .cartedroite {
+    border:solid  #a9478e 1px;
+    background-repeat: no-repeat;
+    width: 25vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cadre2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 5vh;
+    margin-top: 25%;
+    margin-left: -50%;
+  }
+  
+  .a {
+    color: #a9478e;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 10vw;
+    height: 3vh;
+  }
+  
+  .aspect {
+    color: #a9478e;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 15vw;
+    height: 3vh;
+  }
+  .regle {
+    color: #a9478e;
+    background-color: #f4e9f2;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    width: 30vw;
+    height: 8vh;
+  }
+  
+  #jouer {
+    height: 6vh;
+    width: 8vw;
+    font-size: 1.5vw;
+    background: #a9478e;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: solid #a9478e 1px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left:40%;
+  }
+
+  @media screen and (max-width: 840px) {
+    #cartes {
+      margin-right: -18%;
+    }
+  
+    .cartegauche {
+      width: 35vw;
+      height: 50vh;
+    }
+  
+    .cadre {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      height: 8vh;
+      margin-top: 65%;
+      margin-left: -50%;
+    }
+  
+    .u {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 25vw;
+      height: 10vh;
+    }
+  
+    .usage {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 25vw;
+      height: 10vh;
+    }
+  
+    .cartedroite {
+      width: 35vw;
+      height: 50vh;
+    }
+  
+    .cadre2 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      height: 8vh;
+      margin-top: 65%;
+      margin-left: -50%;
+    }
+  
+    .a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 25vw;
+      height: 10vh;
+    }
+  
+    .aspect {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 35vw;
+      height: 10vh;
+    }
+    .regle {
+      font-size: 1rem;
+      width: 55vw;
+     
+      margin-left: 20%;
+    }  
+    #jouer {
+        
+        font-size: 1rem;
+        background: #a9478e;
+        color: white;
+        width: 150px;
+        height: 50px;
+        border: solid #a9478e 1px;
+        border-radius: 6px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-left: 35%;
+        margin-top:5%;
+        
+      }   
+
+  }  

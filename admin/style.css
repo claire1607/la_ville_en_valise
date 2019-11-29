@@ -1,0 +1,28 @@
+
+.overview {
+  background: #a9478e;
+  border-bottom: 1px solid #f4f2f2;
+  color: white;
+}
+
+#img_logo {
+ width: 20vw;
+ height: 10vh;
+}
+
+.overviewHeading {
+  font-size: 2.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  padding: 1.5rem 3rem;
+}
+
+@media screen and (max-width: 840px) {
+  
+  #img_logo {
+    width: 50vw;
+    height: 10vh;
+
+   }
+}

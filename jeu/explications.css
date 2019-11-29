@@ -1,0 +1,41 @@
+.explication {
+    background-image: url(espace_info.png);
+    background-repeat: no-repeat;
+    height: 150vh;
+    margin-left: 25%;
+  }
+  #jouer {   
+    font-size: 1rem;
+    background: #a9478e;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: solid #a9478e 1px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 45%; 
+  }   
+
+
+  @media screen and (max-width: 840px) {
+    .explication {
+        height: 150vh;
+        width: 145%;
+        margin-left: -2%;
+    }
+    #jouer {   
+      font-size: 1rem;
+      background: #a9478e;
+      color: white;
+      width: 150px;
+      height: 50px;
+      border: solid #a9478e 1px;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-left: 30%; 
+    }    
+  }
+
+

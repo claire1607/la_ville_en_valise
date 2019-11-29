@@ -1,0 +1,175 @@
+#cartes {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
+  margin-left: -15%;
+}
+
+.cartegauche {
+  background-image: url(bulles.png);
+  background-repeat: no-repeat;
+  width: 25vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cadre {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 5vh;
+  margin-top: 25%;
+  margin-left: -40%;
+}
+.u {
+  color: #a9478e;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  width: 7vw;
+  height: 3vh;
+}
+
+.usage {
+  color: #a9478e;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  height: 2vh;
+}
+
+.cartedroite {
+  background-image: url(jumelles.png);
+  background-repeat: no-repeat;
+  width: 27vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadre2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 5vh;
+  margin-top: 25%;
+  margin-left: -40%;
+}
+
+.a {
+  color: #a9478e;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 10vw;
+  height: 3vh;
+}
+
+.aspect {
+  color: #a9478e;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 15vw;
+  height: 3vh;
+}
+
+.regle {
+  color: #a9478e;
+  background-color: #f4e9f2;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 2%;
+  margin-left: 12%;
+  width: 70vw;
+  height: 15vh;
+}
+
+@media screen and (max-width: 840px) {
+  #cartes {
+    display: flex;
+   justify-content: space-around;
+  }
+  .cartegauche {
+    background-image: url(bulle_responsive.png);
+    width: 45vw;
+    height: 30vh;
+  }
+
+  .cadre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 8vh;
+    margin-top: 65%;
+    margin-left: -50%;
+  }
+
+  .u {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 10vh;
+  }
+
+  .usage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 10vh;
+  }
+
+  .cartedroite {
+    background-image: url(jumelles_responsive.png);
+    width: 40vw;
+    height: 35vh;
+  }
+
+  .cadre2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 8vh;
+    margin-top: 65%;
+    margin-left: -50%;
+  }
+
+  .a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 10vh;
+  }
+
+  .aspect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 10vh;
+  }
+
+  .regle {
+    font-size: 1rem;
+  }
+}

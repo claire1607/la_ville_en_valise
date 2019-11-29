@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css"  href="../accueil/accueil.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Accueil</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="overview">
+            <div class="overviewHeading">
+                    <img id="img_logo"src="../img/robin-logo.png">
+            </div>
+        </div>
+    </header>
+
+    
+<!-- BOUTON -->
+<button id="btn-burger">   
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+<!-- BOUTON -->   
+
+    <nav>
+      <div id="logo-container"></div> 
+        <a href="../jeu/jeu.html" class="lien1"><i class="fa fa-home" aria-hidden="true"></i>Jeu</a>
+        <a href="../Qui sommes nous/qui.html" class="lien2"><i class="fa fa-user" aria-hidden="true"></i>Qui sommes nous?</a>
+        <a href="https://www.facebook.com/robinsdesvilles.lyon/" class="lien3"><i class="fa fa-rss" aria-hidden="true"></i>Facebook</a>
+        <a href="https://www.instagram.com/robinsdvilles/" class="lien4"><i class="fa fa-rss" aria-hidden="true"></i>Instagram</a>
+        <a href="https://twitter.com/RobinsDesVilles?fbclid=IwAR0ZQGcJy7p8ZpJUf-QnidRJFt9ESA2XkKq0C-yibyyoCZ-5M2KbyoawWN8" class="lien5"><i class="fa fa-rss" aria-hidden="true"></i>Twitter</a>
+        <a href="http://robinsdesvilles.org/blog/" class="lien6"><i class="fa fa-rss" aria-hidden="true"></i>Blog</a>
+    </nav>
+
+<!-- MASQUE -->
+<div id="mask"></div>
+<!-- MASQUE -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+<script>
+    
+    $(document).ready(function(){
+        $('#btn-burger, #mask').on('click', function(){
+            $('nav, main, body, #mask, #btn-burger, nav>a').toggleClass('open');
+        });
+    });
+    
+</script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+
+#espace {
+    background-image: url(espace_jeu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	width:97vw;
+    height:120vh;
+    margin-top:2%;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #a9478e;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 50%;
+    }
+  #espace{
+      width: 100vw;
+      height: 50vh;
+     
+  }
+  
+  }

@@ -1,0 +1,56 @@
+.images {
+    width: 28vw;
+    height: 25vh;
+    margin: 6vw;
+    border: black 1px solid;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.ajout_nom_photo, .ajout_image_photo, .ajout_description_photo  {    
+    text-align: center;
+}
+.ajout_description_photo{
+    height: 10vh;
+}
+
+.ajouter {
+    width: 28vw;
+}
+
+.liste_image {
+    width: 28vw;
+    height: 20vh;
+    margin: 6vw;
+    border: black 1px solid;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.liste_nom_image, .liste_url_image, .liste_description_image  {    
+    text-align: center;
+}
+.liste_description_image  {
+    height: 10.7vh;}
+
+.liste_url_image, .liste_description_image  {    
+    width: 20vw;;
+}
+.liste_image {
+    width: 7.7vw;
+}
+
+.row_description {
+    display: flex;
+}
+.modifier, .supprimer {
+    margin-top: 1vh;
+    width: 13.5vw;
+    
+}
